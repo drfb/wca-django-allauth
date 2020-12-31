@@ -28,6 +28,7 @@ class WorldCubeAssociationProvider(OAuth2Provider):
     def extract_common_fields(self, data):
         return dict(
             name=data.get("name"),
+            wca_id=data.get("wca_id"),
         )
 
 

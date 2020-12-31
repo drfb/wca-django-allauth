@@ -9,7 +9,7 @@ requirements = ["Django >= 1.11", "django-allauth"]
 
 setup(
     name="wca-django-allauth",
-    version="1.0.0",
+    version="1.0.1",
     description="World Cube Association OAuth2 provider for django-allauth.",
     long_description=readme,
     author="Dhan-Rheb Belza",
